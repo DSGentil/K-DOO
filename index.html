@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="MOCKUP_TABLET.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K-DOO – Teste gratuito</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700;900&display=swap');
+
+    body {
+      font-family: 'Urbanist', sans-serif;
+    }
+
+    .gradient-bg {
+      background: linear-gradient(to bottom, #06b6d4, #ec4899 37%, #0f172a);
+    }
+
+    img#logo {
+      filter: brightness(100);
+      height: 7em
+    }
+
+    section#header {
+      min-height: 70vh
+    }
+
+    .min-h-screen {
+      min-height: 80vh;
+    }
+  </style>
+</head>
+
+<body class="text-white gradient-bg">
+
+  <!-- CONTADOR TOPO -->
+  <div style="background-color: #102736;" class="text-white text-center py-4">
+    <p class="font-bold text-sm md:text-base mb-2">
+      Acesso gratuito liberado por tempo limitado
+    </p>
+    <div id="countdown" class="flex justify-center gap-4 font-bold text-white text-sm md:text-base">
+      <div class="bg-white/20 px-4 py-2 rounded">
+        <div id="days" class="text-2xl">00</div>
+        <div class="text-xs uppercase">Dias</div>
+      </div>
+      <div class="bg-white/20 px-4 py-2 rounded">
+        <div id="hours" class="text-2xl">00</div>
+        <div class="text-xs uppercase">Horas</div>
+      </div>
+      <div class="bg-white/20 px-4 py-2 rounded">
+        <div id="minutes" class="text-2xl">00</div>
+        <div class="text-xs uppercase">Minutos</div>
+      </div>
+      <div class="bg-white/20 px-4 py-2 rounded">
+        <div id="seconds" class="text-2xl">00</div>
+        <div class="text-xs uppercase">Segundos</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LOGO INSERIDA NO TOPO À ESQUERDA, ANTES DO HERO -->
+  <div class="px-6 pt-6 max-w-7xl mx-auto flex justify-start">
+    <img id="logo" src="LOGO_TOTO.png" alt="Logo K-DOO" class="h-10 w-auto" />
+  </div>
+
+  <!-- HERO -->
+  <section id="header" class="flex flex-col md:flex-row items-center justify-between px-6 max-w-7xl mx-auto">
+    <div class="md:w-1/2 mb-10 md:mb-0">
+      <p class="text-sm font-semibold tracking-wide uppercase text-white/80 mb-3">
+        TESTE GRATUITO DISPONÍVEL ATÉ <span class="text-yellow-300">31/07</span>
+      </p>
+      <h1 class="text-4xl md:text-5xl font-black leading-tight mb-6">
+        Quando o tempo aperta, o improviso vira plano.<br />
+        <span class="text-white">Transforme ideias soltas</span><br />
+        <span class="text-white">em <span class="text-cyan-300">estratégias com tração real</span></span>
+      </h1>
+      <p class="text-lg text-white/90 max-w-lg mb-6">
+        O K-DOO é um método prático para montar estratégias sólidas sob pressão — com lógica, clareza e ação.
+      </p>
+      <a href="https://tally.so/r/wb14g7" target="_blank"
+        class="inline-block bg-[#ED2748] hover:bg-pink-400 text-white font-semibold text-lg py-4 px-8 rounded-lg shadow-lg transition">
+        Quero destravar minha clareza estratégica
+      </a>
+      <p class="text-sm mt-4 text-white/70">
+        Quanto antes você acessar, mais tempo terá para explorar.
+      </p>
+    </div>
+    <div class="md:w-1/2 flex justify-center">
+      <img src="MOCKUP_TABLET.png" style="width:75%" alt="Capa do K-DOO" class="w-64 md:w-80 rounded-xl" />
+    </div>
+  </section>
+
+  <!-- BLOCO DE INSIGHT -->
+  <section class="bg-[#1e293b] text-white text-center px-6 py-16">
+    <h2 class="text-2xl md:text-3xl font-extrabold mb-4">O problema não é você. É o contexto.</h2>
+    <p class="max-w-3xl mx-auto text-white/80 text-lg">
+      Quando o tempo aperta, o orçamento trava e a cobrança vem antes da convicção, o plano vira improviso. Você
+      preenche slides. Repete o que “sempre deu certo”. Costura referências aleatórias. Mas no fundo… você sabe que
+      aquele plano tem potencial para muito mais.
+    </p>
+  </section>
+
+  <!-- MICRO STORYTELLING -->
+  <section class="bg-[#0f172a] text-white px-6 py-16 text-center">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-2xl md:text-3xl font-extrabold mb-4">Você já viveu isso?</h2>
+      <p class="text-white/80 text-lg">
+        Você abre o slide. Está tudo lá: briefing, canal, ideia… mas parece que falta algo. Falta tração.<br />
+        Slide vai, referência vem... e no fim, aquele plano ainda não convence — nem a você mesmo.<br />
+        É nesse momento que o improviso tenta se passar por estratégia. E justo aí que o K-DOO entra.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- SOBRE O MÉTODO -->
+  <section class="bg-[#1e293b] text-white px-6 py-16">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12">
+      <div>
+        <h3 class="text-2xl font-extrabold text-cyan-300 mb-4">O K-DOO é um método. Não apenas agente de IA.</h3>
+        <p class="text-white/80">
+          O K-DOO é um modelo estratégico estruturado em 9 engrenagens, criado para dar clareza a quem precisa montar
+          planos sólidos com pouco tempo e muita cobrança. Você aprende a montar um plano com começo, meio e fim — com
+          base
+          em lógica, mercado e ação prática. A IA entra como facilitadora. Ela ajuda a aplicar o método com mais
+          agilidade,
+          mas não é o produto. Você não está comprando um chatbot. Está adquirindo uma forma de pensar (e planejar) que
+          funciona.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-2xl font-extrabold text-cyan-300 mb-4">O que você recebe aqui é:</h3>
+        <ul class="space-y-2 text-white/80">
+          <li>📘 Mini e-book gratuito com o modelo K-DOO</li>
+          <li>🕓 Acesso temporário ao agente (até 31/07)</li>
+          <li>🧠 Framework para planejamento tático do início ao fim</li>
+          <li>✅ Como gerar impacto rápido com estratégias visíveis e acionáveis</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGNIFICADO DO NOME -->
+  <section class="bg-[#0f172a] text-white text-center px-6 py-16">
+    <h2 class="text-2xl md:text-3xl font-extrabold mb-6">K-DOO = Knowledge · Diagnosis · Objectives · Operation</h2>
+    <p class="max-w-4xl mx-auto mb-12 text-white/80">
+      O nome K-DOO representa os quatro pilares que sustentam esse método:
+    </p>
+    <div class="max-w-6xl mx-auto grid md:grid-cols-4 gap-6 text-left">
+      <div><strong class="text-cyan-300">K</strong> Knowledge – acervo real de estratégias testadas e validadas por
+        Daniel Gentil + repertório clássico e contemporâneo.</div>
+      <div><strong class="text-cyan-300">D</strong> Diagnosis – leitura crítica do cenário, considerando canal, mercado
+        e comportamento do público.</div>
+      <div><strong class="text-cyan-300">O</strong> Objectives – metas claras, mensuráveis e contextualizadas.</div>
+      <div><strong class="text-cyan-300">O</strong> Operation – plano executável com coerência e possibilidade de tração
+        real.</div>
+    </div>
+  </section>
+
+  <!-- ENGENRENAGENS -->
+  <section class="bg-[#1e293b] text-white px-6 py-16 text-center">
+    <h2 class="text-3xl font-extrabold mb-6">As 9 engrenagens do método K-DOO</h2>
+    <p class="text-white/80 mb-10 max-w-3xl mx-auto">
+      Um bom plano não nasce da sorte. Ele é construído com lógica e sequência. Essas são as engrenagens que sustentam o
+      modelo:
+    </p>
+    <div class="grid md:grid-cols-3 gap-4 text-left max-w-6xl mx-auto">
+      <p>1. Diagnóstico triangular: canal, mercado e shopper</p>
+      <p>2. Tese com base crítica e propósito tático</p>
+      <p>3. Hipóteses plausíveis e acionáveis</p>
+      <p>4. Matriz multicanal com lógica de ativação</p>
+      <p>5. Storytelling estratégico com arquétipos</p>
+      <p>6. Go-to-market objetivo</p>
+      <p>7. KPIs acionáveis</p>
+      <p>8. Formato de entrega apresentável</p>
+      <p>9. Provocação estratégica como fechamento lógico</p>
+    </div>
+  </section>
+
+  <!-- BLOCO FINAL COM CTA + CONTADOR -->
+  <section class="bg-cyan-500 text-black text-center px-6 py-20">
+    <h2 class="text-2xl md:text-3xl font-extrabold mb-4">Baixe o mini e-book + Teste o K-DOO</h2>
+    <p class="max-w-xl mx-auto text-base mb-6">
+      Teste o método K-DOO gratuitamente até 31/07. Você verá como uma estrutura bem aplicada muda a forma como você
+      pensa, monta e defende seus planos.
+    </p>
+    <a href="https://tally.so/r/wb14g7" target="_blank"
+      class="inline-block bg-[#ED2748] hover:bg-pink-400 text-white font-semibold text-lg py-4 px-8 rounded-lg shadow-lg transition">
+      Quero testar agora
+    </a>
+    <p class="text-sm mt-4">Quanto antes você acessar, mais tempo terá para explorar.</p>
+
+    <div id="final-countdown" class="flex justify-center gap-4 font-bold text-black text-sm md:text-base mt-6">
+      <div class="bg-white/40 px-4 py-2 rounded">
+        <div id="final-days" class="text-2xl">00</div>
+        <div class="text-xs uppercase">Dias</div>
+      </div>
+      <div class="bg-white/40 px-4 py-2 rounded">
+        <div id="final-hours" class="text-2xl">00</div>
+        <div class="text-xs uppercase">Horas</div>
+      </div>
+      <div class="bg-white/40 px-4 py-2 rounded">
+        <div id="final-minutes" class="text-2xl">00</div>
+        <div class="text-xs uppercase">Minutos</div>
+      </div>
+      <div class="bg-white/40 px-4 py-2 rounded">
+        <div id="final-seconds" class="text-2xl">00</div>
+        <div class="text-xs uppercase">Segundos</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BLOCO DO AUTOR -->
+  <section class="bg-black text-white px-6 py-20">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-8">Conheça mais sobre o autor</h2>
+      <div class="flex flex-col md:flex-row items-center justify-between gap-10 bg-[#1f2937] p-10 rounded-lg shadow-lg">
+        <div class="md:w-2/3">
+          <h3 class="text-2xl font-extrabold mb-4">Daniel Gentil</h3>
+          <p class="text-white/80 mb-4">
+            Especialista em inteligência de mercado e marketing estratégico, com mais de 15 anos de experiência em DBM,
+            trade marketing, planejamento, campanhas de incentivo, inteligência competitiva e orçamento. Atuei em
+            empresas
+            de médio e grande porte, sempre com foco em desempenho real, estruturação de processos e liderança sob
+            pressão.
+          </p>
+          <p class="text-white/80">
+            Minha trajetória sempre valorizou lógica, clareza e consistência — conectando diagnóstico, execução e
+            resultado.
+            Da inquietação com modelos genéricos, nasceu o K-DOO: um método próprio para transformar ideias soltas em
+            estratégias aplicáveis, mesmo sob pressão.
+          </p>
+        </div>
+        <div class="md:w-1/3 flex justify-center">
+          <div class="text-center">
+            <img src="FOTO_PERFIL.jpg" alt="Daniel Gentil" class="w-32 h-32 rounded-full mx-auto mb-4">
+            <span class="text-white/60 block">Daniel Gentil</span>
+          </div>
+        </div>
+      </div>
+      <p class="mt-6 text-center italic font-semibold">Daniel Gentil – Criador da metodologia K-DOO</p>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="bg-[#1e293b] text-white text-sm text-center py-8 px-6">
+    <p class="text-white/60 max-w-4xl mx-auto">
+      O agente K-DOO é integrado à tecnologia da OpenAI e funciona como ferramenta complementar ao método apresentado
+      neste material. Seu uso não gera custos adicionais, mas é recomendado que o leitor aplique o conteúdo dentro da
+      estrutura proposta para extrair o máximo da experiência.
+    </p>
+    <p class="text-white/60 mt-2">Algumas funcionalidades avançadas podem requerer acesso à versão GPT-4o (ChatGPT
+      Plus).</p>
+    <p class="text-white/60 mt-2">Você está adquirindo um processo, uma lógica e um passo a passo para pensar como um
+      estrategista. O agente é uma ponte — não o produto.</p>
+  </footer>
+
+  <!-- SCRIPT DE CONTAGEM -->
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const endDate = new Date("2025-07-31T23:59:59").getTime();
+
+      function update() {
+        const now = Date.now();
+        const distance = endDate - now;
+
+        if (distance < 0) {
+          clearInterval(interval);
+          document.getElementById("countdown").innerHTML = "Expirado";
+          document.getElementById("final-countdown").innerHTML = "Expirado";
+          return;
+        }
+
+        // Topo
+        document.getElementById("days").innerText = String(Math.floor(distance / (1000 * 60 * 60 * 24))).padStart(2, '0');
+        document.getElementById("hours").innerText = String(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).padStart(2, '0');
+        document.getElementById("minutes").innerText = String(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0');
+        document.getElementById("seconds").innerText = String(Math.floor((distance % (1000 * 60)) / 1000)).padStart(2, '0');
+
+        // CTA
+        document.getElementById("final-days").innerText = String(Math.floor(distance / (1000 * 60 * 60 * 24))).padStart(2, '0');
+        document.getElementById("final-hours").innerText = String(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).padStart(2, '0');
+        document.getElementById("final-minutes").innerText = String(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0');
+        document.getElementById("final-seconds").innerText = String(Math.floor((distance % (1000 * 60)) / 1000)).padStart(2, '0');
+      }
+
+      update();
+      const interval = setInterval(update, 1000);
+    });
+  </script>
+</body>
+
+</html>
